@@ -13,7 +13,7 @@ public class WriteClass {
             do {
                 str = br.readLine();
                 if(str.compareTo("stop") == 0) break;;
-                    fw.write(str);
+                    fw.write(str + "\n");
             } while (str.compareTo("stop") != 0);
         } catch (IOException exc) {
             System.out.println("Ошибка ввода-вывода: " + exc);
