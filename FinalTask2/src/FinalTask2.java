@@ -12,6 +12,9 @@ public class FinalTask2 {
             arr[i] = scanner.nextInt();
         }
         insertIntoSort(arr);
+        for(int i = 0; i < y; i++) {
+            System.out.println(arr[i]);
+        }
     }
 
     public static void insertIntoSort(int[] arr) {
