@@ -11,7 +11,7 @@ public class TaskEighteen {
                 System.out.println(s);
                 i++;
             }
-            System.out.println(i);
+
 
             try (FileWriter fw = new FileWriter("C:\\Users\\user\\Documents\\test.txt")) {
                 while (j < i) {
